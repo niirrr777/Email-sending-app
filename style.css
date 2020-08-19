@@ -1,0 +1,177 @@
+body {
+    background: white;
+    margin: 0;
+    /* margin will bring the content in middle .
+	background will become grey*/
+}
+
+.link-title {
+    text-decoration: none;
+    font-size: 50px;
+    color: chocolate;
+}
+
+.page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background: greenyellow;
+    box-shadow: 0px 9px 13px 5px;
+    border: 5px solid black;
+    /* width will decide the wide of container
+	only container background will change
+	
+	*/
+}
+
+.header {
+    padding: 45px 0 20px 40px;
+    background: antiquewhite;
+    /*border: 5px solid black;*/
+    /*padding will create a box around "My website " and it will have black border 
+	
+	s*/
+}
+
+.menu {
+    background: gold;
+    padding: 6px 0 6px 40px;
+    /* the links background color will change  and  padding will crete a box having blue border */
+}
+
+.menu a {
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Arial Narrow", "Myriad";
+    /*  links spelling color will change , font size will change and font will change*/
+}
+
+.menu a:hover {
+    color: black;
+    /*hover effect on home about us contact */
+}
+
+.aside {
+    width: 120px;
+    float: left;
+    padding: 30px 0 0 40px;
+    /*side bar*/
+}
+
+.h1 {
+    margin: 0px;
+    color: maroon;
+    font-size: 30px;
+    font-family: "Arial Narrow", "Myriad";
+    font-weight: normal;
+    text-align: center;
+    /*side bar*/
+}
+
+.h2 {
+    color: brown;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main {
+    margin: 0 0 0 100px;
+    padding: 35px 40px 30px 0;
+    color: brown;
+    font-family: "Georgia";
+    font-size: 20px;
+    line-height: 20px;
+    text-emphasis: justify;
+    /*paragraph color brown, para font size and font*/
+}
+
+.main a:hover {
+    color: darkblue;
+}
+
+#home-image img {
+    width: 50%;
+}
+
+.footer {
+    padding: 6px 40px 6px 40px;
+    background: white;
+    font-family: "Lucida Sans unicode";
+    text-decoration: right;
+}
+
+.footer {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.separator {
+    color: black;
+    font-size: 15px;
+}
+
+#fb {
+    color: blue;
+    font-size: smaller;
+}
+
+
+/************ABOUT PAGE STYES***********/
+
+#about-page #home-image img {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#about-page #profile-info {
+    float: right;
+    font-size: 14px;
+    color: REd;
+}
+
+#para {
+    color: blue;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+#about-page .description {
+    clear: both;
+}
+
+
+/****************Contact page******************/
+
+
+}
+#contact #form {
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 6px solid black;
+}
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    background: yellow;
+}
+#contact #form #message {
+    width: 100%;
+    border-radius: 6px;
+    background: yellow;
+}
+#contact #form #submit {
+    background: rgb(50, 118, 135);
+    font-size: 25px;
+    color: white;
+}
